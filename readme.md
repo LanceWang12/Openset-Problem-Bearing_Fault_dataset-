@@ -4,7 +4,7 @@
 
 1. The dataset contain 4 class(Normal, Inner break, Outer break, ball break):
 
-   ![bearing](/Users/wangruicheng/Desktop/Work/Computer Vision/final_project/data/bearing.jpg)
+   ![bearing](./data/bearing.jpg)
    
 2. Motor Speed: <font color=#FF6600>1750 rpm</font>
 
@@ -14,7 +14,7 @@
 
 ## Device for data collection
 
-<img src="/Users/wangruicheng/Desktop/Work/Computer Vision/final_project/data/device.jpg" alt="device" style="zoom:150%;" />
+<img src="./data/device.jpg" alt="device" style="zoom:150%;" />
 
 ## Data Source
 
@@ -24,7 +24,7 @@
 
 ## Outline
 
-<img src="/Users/wangruicheng/Desktop/Work/Computer Vision/final_project/data/outline.png" alt="outline" style="zoom:50%;" />
+<img src="./data/outline.png" alt="outline" style="zoom:50%;" />
 
 ## Facenet for bearing fault dataset
 
@@ -55,5 +55,13 @@ RF = RandomForestClassifier(
 )
 ```
 
+## Benchmark(0: Normal, 1: Inner break, 2: Outer break, 3: Unknown[Ball]):
+
+### 1. Random Forest report(In Close set):
+
 <img src="./data/RF_report.png" alt="RF_report" style="zoom:50%;" />
+
+### 2. Total report:
+
+<img src="./data/Total_report.png" alt="Total_report" style="zoom:50%;" />
 
