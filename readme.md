@@ -58,5 +58,5 @@ RF = RandomForestClassifier(
 ## Benchmark(0: Normal, 1: Inner break, 2: Outer break, 3: Unknown[Ball]):
 ### Total report:
 
-<img src="./data/Total_report.png" alt="Total_report" style="zoom:50%;" />
+<img src="./data/Total_report.jpg" alt="Total_report" style="zoom:50%;" />
 
